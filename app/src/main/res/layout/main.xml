@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="56dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#C2C2C2">
+
+		<LinearLayout
+			android:layout_height="54dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="#26A69A"
+			android:gravity="left|center">
+
+			<ImageView
+				android:layout_height="50dp"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="50dp"
+				android:layout_margin="5dp"
+				android:src="@drawable/ic_launcher"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="QWBoom"
+				android:textSize="22sp"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_marginTop="100dp"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal">
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:ems="10"
+				android:inputType="text"
+				android:id="@+id/mainEditText1"
+				android:hint="轰炸内容"
+				android:singleLine="true"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:ems="10"
+				android:inputType="number"
+				android:id="@+id/mainEditText2"
+				android:lines="1"
+				android:singleLine="true"
+				android:hint="次数"/>
+
+		</LinearLayout>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="点击启动"
+			android:id="@+id/mainButton1"
+			android:background="#009688"
+			android:layout_marginTop="10dp"
+			android:layout_margin="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="联系作者"
+			android:id="@+id/mainButton2"
+			android:background="#009688"
+			android:layout_marginTop="10dp"
+			android:layout_margin="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="点击加群"
+			android:id="@+id/mainButton3"
+			android:background="#009688"
+			android:layout_marginTop="10dp"
+			android:layout_margin="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="By:炫明_3510088586\n①输入轰炸内容和次数,内容可以这样\n轰炸次数/n\n②打开辅助功能开关\n③打开QQ聊天界面"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
